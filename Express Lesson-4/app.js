@@ -5,8 +5,8 @@ const app = express();  // Initialize express app
 app.get('/', (req, res) => {
     res.send('Hello, world!');
 });
-app.post('/about', (req, res) => {
-    res.send('Hello, world! About');
+app.post('/', (req, res) => {
+    res.send('Hello, world! Post');
 });
 app.put('/', (req, res) => {
     res.send('Hello, world!');
